@@ -1,0 +1,321 @@
+.bar{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 183, 134);
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+}
+.home{
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home img{
+    width: 100%;
+    height: 100vh;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: aliceblue;
+}
+.text1 h1{
+    font-style: initial;
+    font-size: 60px;
+}
+.text1 h3{
+    font-style: italic;
+    font-size: 20px;
+}
+.text1 button{
+    margin-top: 30px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 10px;
+}
+.text1 button:hover{
+    cursor: pointer;
+    background-color: darksalmon;
+}
+.container1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.container1 h1{
+    color: black;
+    font-style: initial;
+    font-size: 30px;
+}
+.container1 p{
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.container1 button{
+    margin-top: 50px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: rgb(46, 43, 43);
+    color: rgb(255, 255, 255);
+}
+.container1 button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+.container2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(68, 147, 216);
+    color: aliceblue;
+}
+.container2 h3{
+    color: yellow;
+    font-size: 25px;
+}
+.container2 h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.container2 .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(225, 228, 231);
+    gap: 30px;
+}
+.icon-screen{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0px 15px 10px 15px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(238, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-screen:hover{
+    cursor: pointer;
+    background-color: rgb(214, 214, 203);
+}
+.container2 .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container2 p{
+    font-size: 15px;
+}
+.container2 strong{
+    font-size: 20px;
+}
+.container3{
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3 img{
+    width: 100%;
+    height: 100vh;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: aliceblue;
+}
+.text2 h1{
+    font-style: initial;
+    font-size: 60px;
+}
+.text2 button{
+    margin-top: 30px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 10px;
+}
+.text2 button:hover{
+    cursor: pointer;
+    background-color: rgb(114, 114, 92);
+}
+#portfolio{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1320px;
+    flex-wrap: wrap;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.text3 h3{
+    color: rgb(238, 238, 0);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.text3 h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sekil{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+
+}
+.sekil img{
+    width: 100%;
+    height: 100%;
+}
+.photo .text{
+    position: absolute ;
+    margin-top: 130px;
+    margin-left: -80px;
+    font-size: 20px;
+}
+.photo .text h2{
+    font-weight: 700;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.photo .text p{
+    position: absolute;
+    font-weight: 200;
+    color: aliceblue;
+}
+.sekil:hover{
+clip-path: inset(15px);
+background-color: rgb(125, 101, 255);
+z-index: 1;
+cursor: pointer;
+}
+.sekil:hover img{
+    opacity: 0.4;
+}
+.container5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(68, 147, 216);
+    color: aliceblue;
+}
+.container5 h2{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container5 .butonlar{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container5 .buton1{
+    width: 11vw;
+    height: 6vh;
+    border-radius: 10px;
+}
+.buton1:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.xerite{
+    width: 100vw;
+    height: 60vh;
+}
+.xerite .frame{
+    width: 100%;
+    height: 100%;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(225, 228, 231);
+    gap: 30px;
+    height: 50vh;
+    background-color: rgb(155, 38, 38);
+}
+.icon-social{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0px 15px 10px 15px;
+    background-color: rgb(37, 171, 180);
+    color: rgb(155, 38, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container6 .iconlar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.icon-social:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
